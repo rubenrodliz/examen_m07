@@ -31,3 +31,12 @@ Es generarà una base de dades en sqlite3 en el directori **API CRUD** de gesti�
 - PUT /api/students/{id}
 - DELETE /api/students/{id}
 
+## Requeriments
+
+- Generar una migració amb seeder de 10 aluimnes i 5 cursos d'informàtica, per poder provar la API.
+
+1. Rutes API == 10% ~ 0%
+2. Controladors de recursos == 20% ~ 0%
+3. Migració de base de dades i seeders == 40% ~ 0%
+4. Proves curl (equivalent PostMan) i captures == 30% ~ 0%
+5. Codi complet a GitHub (afegiu també .env) == ELIMINATORI
