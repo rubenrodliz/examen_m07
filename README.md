@@ -40,3 +40,8 @@ Es generarà una base de dades en sqlite3 en el directori **API CRUD** de gesti�
 3. Migració de base de dades i seeders == 40% ~ 0%
 4. Proves curl (equivalent PostMan) i captures == 30% ~ 0%
 5. Codi complet a GitHub (afegiu també .env) == ELIMINATORI
+
+## Adicional
+
+- Afegides les captures dins el directori **/storage/captures**.
+- Afegides les requests dins el fitxer **/storage/requests**.

@@ -1,0 +1,81 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Examen",
+    "collectionId": "bd90cdb7-9fb8-47a7-a17c-7f30175060fc",
+    "dateExported": "2024-05-23T14:06:42.691Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "38964bc3-abfc-41eb-8499-39af7d5852b5",
+            "colId": "bd90cdb7-9fb8-47a7-a17c-7f30175060fc",
+            "containerId": "",
+            "name": "GET /api/students",
+            "url": "http://127.0.0.1:8000/api/students",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-05-23T13:50:58.972Z",
+            "modified": "2024-05-23T13:51:12.220Z",
+            "headers": []
+        },
+        {
+            "_id": "0bb737fd-59ea-4efe-82d0-e1bb6d5c0462",
+            "colId": "bd90cdb7-9fb8-47a7-a17c-7f30175060fc",
+            "containerId": "",
+            "name": "POST /api/student",
+            "url": "http://127.0.0.1:8000/api/students",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-05-23T13:51:26.638Z",
+            "modified": "2024-05-23T13:52:01.385Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"test\",\n  \"email\": \"tests@gmail.com\",\n  \"birthDate\": \"2024-05-23\",\n  \"course_id\": 4\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "4be9a3e7-f135-416f-b05c-9f8fad388195",
+            "colId": "bd90cdb7-9fb8-47a7-a17c-7f30175060fc",
+            "containerId": "",
+            "name": "GET /api/students/id",
+            "url": "http://127.0.0.1:8000/api/students/14",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-05-23T13:52:12.657Z",
+            "modified": "2024-05-23T13:57:18.067Z",
+            "headers": []
+        },
+        {
+            "_id": "127b2b30-793a-487e-bd4c-8e7037bd3fde",
+            "colId": "bd90cdb7-9fb8-47a7-a17c-7f30175060fc",
+            "containerId": "",
+            "name": "PUT /api/students/id",
+            "url": "http://127.0.0.1:8000/api/students/14",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-05-23T13:52:54.626Z",
+            "modified": "2024-05-23T13:57:24.828Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Test\",\n  \"birthDate\": \"2024-05-23\",\n  \"course_id\": 4\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "05a4f246-6e25-465b-956e-e6ef584236d7",
+            "colId": "bd90cdb7-9fb8-47a7-a17c-7f30175060fc",
+            "containerId": "",
+            "name": "DELETE /api/students/id",
+            "url": "http://127.0.0.1:8000/api/students/14",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2024-05-23T13:55:23.830Z",
+            "modified": "2024-05-23T13:57:29.979Z",
+            "headers": []
+        }
+    ],
+    "ref": "REI6HPHGiEEj3mG1X2jbuvDNCBVewEQv3v-rXHn4zStJyHprdPE3rSUfKREY1ofL_c0fWjLY5EC2yZWH-IVI9g"
+}
